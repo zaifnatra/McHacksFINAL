@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=YourFontFamily&display=swap');
+
+@font-face {
+  font-family: 'Georgia-Regular';
+  src: url('georgiab.woff') format('woff'),
+       url('georgia.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+      .frame-1 {
+        background: linear-gradient(
+          180deg,
+          rgba(140, 0, 0, 1) 45.66665589809418%,
+          rgba(255, 0, 0, 0) 100%
+        );
+        width: 130.5rem;
+        height: 186.8125rem;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .tumblr-static-6-gv-194-m-6-w-90-k-8-gsgwo-88-kssg-0-1 {
+        width: 139.125rem;
+        height: 235rem;
+        position: absolute;
+        left: -1.4375rem;
+        top: -61.125rem;
+      }
+
+      .header-background {
+        width: 121.5625rem;
+        height: 50.6875rem;
+        position: absolute;
+        left: 3.6875rem;
+        top: 7.5625rem;
+      }
+
+      .rectangle-43 {
+        background: #0d0d0d;
+        width: 120rem;
+        height: 3.75rem;
+        position: absolute;
+        left: 5.25rem;
+        top: 392.25rem;
+      }
+
+      .rectangle-53,
+      .rectangle-64 {
+        
+        position: absolute;
+        
+      }
+
+      .rectangle-53 {
+        left: 6.375rem;
+        top: 19.125rem;
+      }
+
+      .rectangle-64 {
+        left: 69.4375rem;
+        top: 19.125rem;
+      }
+
+      .rectangle-65 {
+        background: linear-gradient(
+          180deg,
+          rgba(241, 49, 49, 0.8) 0%,
+          rgba(190, 137, 0, 0) 100%
+        );
+        border-radius: 2.75rem;
+        width: 83.1875rem;
+        height: 14.875rem;
+        position: absolute;
+        left: 31.6875rem;
+        top: 69.5625rem;
+        box-shadow: 0rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.25);
+      }
+
+
+      .ok-1 {
+        border-radius: 5.6875rem;
+        width: 29.5rem;
+        height: 29.125rem;
+        position: absolute;
+        left: 22.875rem;
+        top: 102rem;
+        object-fit: cover;
+      }
+
+      .maddiecorncob-1,
+      .huzaifa-bukkake-1,
+      .derek-1 {
+        border-radius: 5.625rem;
+        width: 29.6875rem;
+        height: 29.125rem;
+        position: absolute;
+        object-fit: cover;
+      }
+
+      .maddiecorncob-1 {
+        left: 77.4375rem;
+        top: 102rem;
+      }
+
+      .huzaifa-bukkake-1 {
+        left: 77.4375rem;
+        top: 135.25rem;
+      }
+
+      .derek-1 {
+        left: 22.875rem;
+        top: 135.25rem;
+      }
+
+      .about-us {
+        color: linear-gradient(
+          180deg,
+          rgba(212, 185, 0, 1) 0%,
+          rgba(255, 255, 255, 0) 100%
+        );
+        text-align: center;
+        font-family: "Georgia-Regular", sans-serif;
+        font-size: 5rem;
+        font-weight: 400;
+        position: absolute;
+        left: 52.375rem;
+        top: 91.875rem;
+      }
+
+      .images-1 {
+        width: 25.028125rem;
+        height: 23.021875rem;
+        position: absolute;
+        left: 31.40125rem;
+        top: 88.37rem;
+        transform-origin: 0 0;
+        transform: rotate(-179.343deg) scale(1, 1);
+        object-fit: cover;
+        background-image: none;
+      }
+      
+
+      .objective-the-goal-of-the-game-is-to-outsmart-your-opponent-by-choosing-the-winning-hand-shape-in-a-rock-paper-scissors-showdown {
+        color: linear-gradient(
+          180deg,
+          rgba(242, 211, 0, 0.85) 18.50000023841858%,
+          rgba(220, 143, 28, 0.52) 90.49999713897705%,
+          rgba(220, 143, 28, 0.88) 92.66665577888489%
+        );
+        text-align: left;
+        font-family: "Georgia-Regular", sans-serif;
+        font-size: 3.125rem;
+        font-weight: 400;
+        position: absolute;
+        left: 34.375rem;
+        top: 69.5625rem;
+        width: 86.0625rem;
+        height: 7.125rem;
+      }
+
+      .rocky-designstyle-jungle-m-1 {
+        width: 42.8125rem;
+        height: 19.4375rem;
+        position: absolute;
+        left: 46.6875rem;
+        top: 0rem;
+        object-fit: cover;
+      }
+
+      #cameraContainer {
+        border-radius: 2.75rem;
+        width: 893px !important;
+        height: 626px !important;
+        position: absolute;
+        box-shadow: 0rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.25);
+      }
+
+      .Normal_cam {
+        border-radius: 2.75rem;
+        width: 100% !important;
+        height: 100% !important;
+        border-color: #FFFFFF;
+        border-radius: 10%;
+      }
+
+      #outputContainer {
+        border-radius: 2.75rem;
+        width: 893px !important;
+        height: 626px !important;
+        position: absolute;
+        box-shadow: 0rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.25);
+      }
+
+     
