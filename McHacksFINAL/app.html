@@ -1,68 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css"> 
-    <link rel="stylesheet" href="textanim.css"> 
+    <title>Fair Rock Paper Scissors</title>
+    <link rel="stylesheet" href="app.css">
     <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils@0.1/camera_utils.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils@0.1/control_utils.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils@0.2/drawing_utils.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands@0.1/hands.js"></script>
-  </head>
+</head>
+<body>
+    <header>
+        <h1>Fair Rock Paper Scissors</h1>
+    </header>
 
-  <body>
-    <div class="frame-1">
-      <div class="tumblr-static-6-gv-194-m-6-w-90-k-8-gsgwo-88-kssg-0-1"></div>
-      <div class="header-background"></div>
-      <div class="rectangle-43"></div>
-      <div class="rectangle-53">
-        <div id="cameraContainer" >
-          <video class="Normal_cam" style="
-            width: 893px !important;
-            height: 626px !important;
-            border-radius: 2.75px;
-          "></video>
+    <div class="container">
+        <div class="box left">
+            <video class="Normal_cam"></video>
         </div>
-      </div>
-      <div class="rectangle-64">
-        <div id="outputContainer">
-          <div style = 'visibility: hidden;'><input type="text" id="outputText" readonly></div>
-          <img id="updateImage" src="">
-        </div>
-      </div>
-      <div class="rectangle-65"></div>
-      <a href="https://www.linkedin.com/in/saymonn-lagran-b47a54257/"><img class="ok-1" src="ok-10.png" />
-        </a>
-      <a href="https://www.linkedin.com/in/madison-luu-a3b34b299/"><img class="maddiecorncob-1" src="maddiecorncob-10.png" />
-    </a>
-      <a href="https://www.linkedin.com/in/huzaifa-fareed/"><img class="huzaifa-bukkake-1" src="huzaifa-bukkake-10.png" />
-    </a>
-      <a href="https://www.linkedin.com/in/derekgallagher1/">
-        <img class="derek-1" src="derek-10.png" />
-      </a>
-      <div class="about-us">ABOUT US</div>
 
-      <div class="objective-the-goal-of-the-game-is-to-outsmart-your-opponent-by-choosing-the-winning-hand-shape-in-a-rock-paper-scissors-showdown">
-        Objective:
-        <br />
-        The goal of the game is to outsmart your opponent by choosing the winning
-        hand shape in a rock-paper-scissors showdown.
-      </div>
-      <img
-        class="rocky-designstyle-jungle-m-1"
-        src="rocky-designstyle-jungle-m-10.png"
-      />
+        <div class="box right"> 
+            <div style="visibility: hidden;">
+                <input type="text" id="outputText" readonly>
+            </div>
+            <img id="updateImage" src="">
+        </div>
     </div>
 
     <div style="visibility: hidden;">
-      <canvas class="Cool_cam" width="12px" height="12px"></canvas>
+        <canvas class="Cool_cam" width="12px" height="12px"></canvas>
     </div>
 
     <div style="visibility: hidden;" class="everything">
-      <script type="text/javascript" src="app.js"></script>
+        <script type="text/javascript" src="app.js"></script>
     </div>
-    
-    <!-- Remaining content -->
-
-  </body>
+</body>
 </html>
+body {
+    background-color: #E1F0DA;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #99BC85;
+    color: #fff;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+.box {
+    box-sizing: border-box;
+    width: 45%;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.Normal_cam {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+#updateImage {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.box.left {
+    position: relative;
+}
+
+.box.right {
+    box-sizing: border-box;
+    width: 45%;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    position: relative;
+}
